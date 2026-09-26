@@ -4,10 +4,12 @@
 
 Das Projekt ist eine einzelne, in sich geschlossene HTML-Datei ohne Build-Prozess, Server oder Abhängigkeiten, die installiert werden müssten. Einfach öffnen und loslegen.
 
+(Die beste Darstellung ist auf einem großem Bildschirm z.b. am PC. Es wurde nur sehr beschränkt für eine Handyansicht konfiguriert)
+
 **[▶ Live-Demo ansehen](https://claude.ai/artifact/WXte8CUeyKdAiJrHKxQ3LH)**
 
 <p align="center">
-  <img src="screenshots/solar-system.png" width="90%" alt="Sonnensystem-Ansicht mit ausgewähltem Saturn und Live-Infopanel">
+  <img src="solar-system.png" width="90%" alt="Sonnensystem-Ansicht mit ausgewähltem Saturn und Live-Infopanel">
 </p>
 <p align="center">
   <img src="screenshots/milky-way.png" width="44%" alt="Draufsicht auf die Milchstraße mit Spiralarmen und Zentrum">
