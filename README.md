@@ -6,7 +6,7 @@ Das Projekt ist eine einzelne, in sich geschlossene HTML-Datei ohne Build-Prozes
 
 (Die beste Darstellung ist auf einem großem Bildschirm z.b. am PC. Es wurde nur sehr beschränkt für eine Handyansicht konfiguriert)
 
-**[▶ Live-Demo ansehen](https://claude.ai/artifact/WXte8CUeyKdAiJrHKxQ3LH)**
+**[▶ Live-Demo ansehen](https://julianharder.github.io/SOL---interaktives-3D-Sonnensystem/)**
 
 <p align="center">
   <img src="solar-system.png" width="90%" alt="Sonnensystem-Ansicht mit ausgewähltem Saturn und Live-Infopanel">
