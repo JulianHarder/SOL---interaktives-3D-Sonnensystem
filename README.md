@@ -12,8 +12,8 @@ Das Projekt ist eine einzelne, in sich geschlossene HTML-Datei ohne Build-Prozes
   <img src="solar-system.png" width="90%" alt="Sonnensystem-Ansicht mit ausgewähltem Saturn und Live-Infopanel">
 </p>
 <p align="center">
-  <img src="screenshots/milky-way.png" width="44%" alt="Draufsicht auf die Milchstraße mit Spiralarmen und Zentrum">
-  <img src="screenshots/night-sky.png" width="44%" alt="Begehbarer Nachthimmel mit Sternbild-Linien und Infokarte">
+  <img src="milky-way.png" width="99%" alt="Draufsicht auf die Milchstraße mit Spiralarmen und Zentrum">
+  <img src="night-sky.png" width="99%" alt="Begehbarer Nachthimmel mit Sternbild-Linien und Infokarte">
 </p>
 
 ---
