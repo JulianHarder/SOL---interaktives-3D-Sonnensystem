@@ -110,7 +110,7 @@ Die Anwendung ist als durchgehender Zoom aufgebaut: Man startet bei den Planeten
 ## Projektstruktur
 
 ```
-index.html   ← Offline-Variante, Three.js vollständig eingebettet (ca. 970 KB, funktioniert ohne Internetverbindung/CDN), insgesamte Dateigröße bei ca 1,9 MB
+index.html   ← Offline-Variante, Three.js vollständig eingebettet (funktioniert ohne Internetverbindung/CDN), insgesamte Dateigröße bei ca 1,9 MB
 ```
 
 Bewusst als **eine Datei** gehalten, damit sie sich ohne Server, npm-Installation oder Bundler einfach weitergeben, herunterladen und lokal öffnen lässt. Bei einem größeren Ausbau des Projekts wäre eine Aufteilung in Module (Sonnensystem, Galaxie, Nachthimmel, Flugmodus, UI) der nächste sinnvolle Schritt.
