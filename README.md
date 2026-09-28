@@ -51,8 +51,8 @@ Die Anwendung ist als durchgehender Zoom aufgebaut: Man startet bei den Planeten
 
 ### 1. Sonnensystem
 
-- Alle 8 Planeten mit **prozedural generierten Oberflächentexturen** (kein einziges externes Bild – alles wird zur Laufzeit aus Rauschfunktionen berechnet)
-  (Die Erde verwendet Texturen aus einem eigenen 3D-Erdmodell (erstellt mit Claude Design))
+- 7 Planeten mit **prozedural generierten Oberflächentexturen** (kein einziges externes Bild – alles wird zur Laufzeit aus Rauschfunktionen berechnet)
+- Erdtexturen: Beispieltexturen aus dem three.js-Repository (earth_atmos_2048, earth_normal_2048, earth_specular_2048, earth_clouds_1024), für SOL umgewandelt. Die ursprüngliche Bildquelle ist dort nicht dokumentiert.
 - Reale Bahnparameter (Exzentrizität, Perihel/Aphel, Neigung) – die Positionen der Planeten entsprechen näherungsweise dem aktuellen Datum
 - Saturn- und Uranusringe, Erdwolken samt Mond, Asteroiden- und Kuipergürtel
 - Die **ISS**, die sichtbar um die Erde kreist
@@ -143,8 +143,8 @@ Keine Installation nötig.
 
 - **Sternkatalog & Sternbild-Linien:** [d3-celestial](https://github.com/ofrohn/d3-celestial) von Olaf Frohn (BSD-Lizenz), basierend auf dem Hipparcos- bzw. Yale Bright Star Catalog
 - **Spiralarm-Modell der Milchstraße:** Parameter nach Reid, M. J. et al. (2019), *Trigonometric Parallaxes of High-Mass Star-Forming Regions: Our View of the Milky Way*, The Astrophysical Journal, 885, 131
-- Alle Planetentexturen, Nebel, Sternoberflächen und die Bodenreflexion sind **prozedural generiert** (eigener Simplex-/Value-Noise-Code) – es werden keine fremden Bildmaterialien verwendet
-  (Die Erde verwendet Texturen aus einem eigenen 3D-Erdmodell (erstellt mit Claude Design))
+- 7 Planetentexturen, Nebel, Sternoberflächen und die Bodenreflexion sind **prozedural generiert** (eigener Simplex-/Value-Noise-Code) – es werden keine fremden Bildmaterialien verwendet
+- Erdtexturen: Beispieltexturen aus dem three.js-Repository (earth_atmos_2048, earth_normal_2048, earth_specular_2048, earth_clouds_1024), für SOL umgewandelt. Die ursprüngliche Bildquelle ist dort nicht dokumentiert.
 
 ## Bekannte Einschränkungen
 
