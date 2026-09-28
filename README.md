@@ -14,6 +14,7 @@ Das Projekt ist eine einzelne, in sich geschlossene HTML-Datei ohne Build-Prozes
 <p align="center">
   <img src="milky-way.png" width="99%" alt="Draufsicht auf die Milchstraße mit Spiralarmen und Zentrum">
   <img src="night-sky.png" width="99%" alt="Begehbarer Nachthimmel mit Sternbild-Linien und Infokarte">
+  <img src="erde.png" width="99%" alt="Erde wurde durch ein Echtes 3D modell ersetzt">
 </p>
 
 ---
@@ -51,6 +52,7 @@ Die Anwendung ist als durchgehender Zoom aufgebaut: Man startet bei den Planeten
 ### 1. Sonnensystem
 
 - Alle 8 Planeten mit **prozedural generierten Oberflächentexturen** (kein einziges externes Bild – alles wird zur Laufzeit aus Rauschfunktionen berechnet)
+  (Die Erde verwendet Texturen aus einem eigenen 3D-Erdmodell (erstellt mit Claude Design))
 - Reale Bahnparameter (Exzentrizität, Perihel/Aphel, Neigung) – die Positionen der Planeten entsprechen näherungsweise dem aktuellen Datum
 - Saturn- und Uranusringe, Erdwolken samt Mond, Asteroiden- und Kuipergürtel
 - Die **ISS**, die sichtbar um die Erde kreist
@@ -108,8 +110,7 @@ Die Anwendung ist als durchgehender Zoom aufgebaut: Man startet bei den Planeten
 ## Projektstruktur
 
 ```
-sonnensystem.html   ← Hauptdatei (Skripte via CDN, ca. 330 KB)
-Sonnensystem.html   ← Offline-Variante, Three.js vollständig eingebettet (ca. 970 KB, funktioniert ohne Internetverbindung/CDN)
+index.html   ← Offline-Variante, Three.js vollständig eingebettet (ca. 970 KB, funktioniert ohne Internetverbindung/CDN), insgesamte Dateigröße bei ca 1,9 MB
 ```
 
 Bewusst als **eine Datei** gehalten, damit sie sich ohne Server, npm-Installation oder Bundler einfach weitergeben, herunterladen und lokal öffnen lässt. Bei einem größeren Ausbau des Projekts wäre eine Aufteilung in Module (Sonnensystem, Galaxie, Nachthimmel, Flugmodus, UI) der nächste sinnvolle Schritt.
@@ -143,6 +144,7 @@ Keine Installation nötig.
 - **Sternkatalog & Sternbild-Linien:** [d3-celestial](https://github.com/ofrohn/d3-celestial) von Olaf Frohn (BSD-Lizenz), basierend auf dem Hipparcos- bzw. Yale Bright Star Catalog
 - **Spiralarm-Modell der Milchstraße:** Parameter nach Reid, M. J. et al. (2019), *Trigonometric Parallaxes of High-Mass Star-Forming Regions: Our View of the Milky Way*, The Astrophysical Journal, 885, 131
 - Alle Planetentexturen, Nebel, Sternoberflächen und die Bodenreflexion sind **prozedural generiert** (eigener Simplex-/Value-Noise-Code) – es werden keine fremden Bildmaterialien verwendet
+  (Die Erde verwendet Texturen aus einem eigenen 3D-Erdmodell (erstellt mit Claude Design))
 
 ## Bekannte Einschränkungen
 
